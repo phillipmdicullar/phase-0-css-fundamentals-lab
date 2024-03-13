@@ -1,10 +1,28 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* body {
+  text-align: center;
 }
-
 h1 {
   color: red;
 }
-
+#details {
+  display: flex;
+  flex-direction: row;
+  
+  background-color: red' */
+  /* h1 {
+    color: red;
+  } */
+  body {
+    text-align: center;
+  }
+  #details {
+    display: flex;
+    /* justify-content: space-between; Aligns the items along the main axis with space between them */
+    flex-wrap: ; /* Allows items to wrap to the next line if the space is not enough */
+  }
+  
+  #details div {
+    width: 25%; /* Set the width of each div to fit 4 items in a row */
+    /* margin-bottom: 20px; Adds some space between each div */
+  }
+  
